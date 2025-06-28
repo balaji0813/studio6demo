@@ -1,6 +1,6 @@
 import { TitleHeading } from "../TitleHeader";
 
-const JoinSubscribers = () => {
+const SubscriberVideo = () => {
   return (
     <section
       className="join-subscribers lg:py-16 md:py-12 py-8"
@@ -45,4 +45,4 @@ const JoinSubscribers = () => {
   );
 };
 
-export default JoinSubscribers;
+export default SubscriberVideo;
