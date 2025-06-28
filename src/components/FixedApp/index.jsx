@@ -10,14 +10,14 @@ const FixedApp = () => {
             <a href="mailto:studio6interiors5292@gmail.com">
               <div className="flex flex-col items-center gap-2">
                 <img src={MailIcon} className="md:w-10 md:h-10 w-6 h-6" />
-                <div className="md:text-sm text-xs">Mail </div>
+                <div className="md:text-sm text-xs text-white">Mail </div>
               </div>
             </a>
 
             <a href="https://api.whatsapp.com/send?phone=8015463200&text=Hi%20studio6interiors!%20I%20need%20more%20info%20about%20your%20products">
               <div className="flex flex-col items-center gap-2">
                 <img src={WhatsappIcon} className="md:w-10 md:h-10 w-6 h-6" />
-                <div className="md:text-sm text-xs">Whatsapp</div>
+                <div className="md:text-sm text-xs text-white">Whatsapp</div>
               </div>
             </a>
           </div>

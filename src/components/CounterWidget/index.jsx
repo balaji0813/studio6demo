@@ -43,11 +43,11 @@ const Counter = ({ end, label, duration = 2000 }) => {
 
   return (
     <div ref={ref} className="flex flex-col items-center p-4">
-      <span className="text-4xl font-bold text-white-600">
+      <span className="lg:text-4xl md:text-2xl text-lg font-bold text-white">
         {count}
         {typeof end === "number" && "+"}
       </span>
-      <span className="text-lg text-gray-400 text-center">{label}</span>
+      <span className="lg:text-lg md:text-base text-sm text-gray-400 text-center">{label}</span>
     </div>
   );
 };

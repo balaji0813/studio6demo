@@ -7,7 +7,7 @@ const HowItWorks = () => {
     <section className="how-it-works lg:py-16 md:py-12 py-8" id="how-it-works">
       <div className="bg-black">
         <div className="container relative">
-          <div className="text-center mb-16">
+          <div className="text-center lg:mb-16 md:mb-12 mb-8">
             <TitleHeading className="text-center text-primary mb-4">
               How it works
             </TitleHeading>
@@ -23,7 +23,7 @@ const HowItWorks = () => {
                 return (
                   <div
                     key={s}
-                    className={`relative ${step.className} lg:w-1/5 md:w-1/3`}
+                    className={`relative ${step.className} lg:w-1/5 md:w-1/3 md:mb-2 mb-8`}
                   >
                     <div className="flex flex-col items-center">
                       {step.src ? (
@@ -32,7 +32,7 @@ const HowItWorks = () => {
                         //   alt={step.title}
                         //   className="w-8 h-8"
                         // />
-                        <div className="bg-black text-primary mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md border-2 border-primary">
+                        <div className="bg-black text-primary lg:mb-10 md:mb-8 mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-md border-2 border-primary">
                           <>{step.src}</>
                         </div>
                       ) : (
@@ -40,7 +40,7 @@ const HowItWorks = () => {
                           <span className="text-white text-xl">{s + 1}</span>
                         </div>
                       )}
-                      <h3 className="lg:text-lg md:text-base text-sm font-bold mb-4">
+                      <h3 className="lg:text-lg md:text-base text-sm font-bold mb-4 text-white">
                         {step.title}
                       </h3>
                       <p className="lg:text-lg md:text-base text-sm text-white font-light text-center">

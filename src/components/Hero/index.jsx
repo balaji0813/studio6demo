@@ -17,10 +17,10 @@ const Hero = () => {
         <div className="container">
           <div className="absolute z-30 h-screen flex items-center justify-center">
             <div className="max-w-[800px] text-left mt-18">
-              <h1 className="mb-5 lg:text-3xl md:text-2xl text-lg font-bold leading-tight text-white uppercase">
+              <h1 className="mb-5 xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-bold leading-tight text-white uppercase">
                 Design Beyond <br /> Live Extraordinary
               </h1>
-              <p className="mb-5 lg:text-lg md:text-base text-sm leading-relaxed!">
+              <p className="mb-5 lg:text-lg md:text-base text-sm leading-relaxed! text-white">
                 Living | Kitchen | Dinning
               </p>
               <div className="w-full flex pr-16 lg:pr-0">

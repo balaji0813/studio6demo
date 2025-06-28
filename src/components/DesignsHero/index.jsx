@@ -20,7 +20,7 @@ const DesignsHero = () => {
                     sit phasellus mollis sit aliquam sit nullam.
                   </p> */}
                   <div className="flex gap-4 mb-6">
-                    <button className="lg:text-lg md:text-base text-sm bg-black text-white font-medium lg:!px-4 !px-2 py-2 rounded-md hover:bg-gray-800 transition">
+                    <button className="lg:text-lg md:text-base text-sm !bg-black text-white font-medium lg:!px-4 !px-2 py-2 rounded-md hover:bg-gray-800 transition">
                       Book for free consultation →
                     </button>
                     {/* <button className="lg:text-lg md:text-base text-sm !border-2 !border-black !bg-transparent text-black font-medium lg:!px-4 !px-2 py-2 rounded-md">

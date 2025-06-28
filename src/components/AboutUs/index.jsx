@@ -12,7 +12,7 @@ const AboutUs = () => {
             About Us
           </TitleHeading>
 
-          <div className="my-16">
+          <div className="lg:my-16 md:my-12 my-8">
             <div className="flex lg:flex-row flex-col items-center justify-between gap-10">
               <div className="lg:w-1/2 md:w-1/2 w-full">
                 <p className="mb-5 lg:text-lg md:text-base text-sm text-white">

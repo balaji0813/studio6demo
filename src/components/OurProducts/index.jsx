@@ -12,7 +12,7 @@ const OurProducts = () => {
         id="our-products"
       >
         <div className="container">
-          <TitleHeading className="text-white text-center mb-4">
+          <TitleHeading className="text-white text-center mb-2">
             Our Products
           </TitleHeading>
 
