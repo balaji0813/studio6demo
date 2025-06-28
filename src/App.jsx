@@ -27,7 +27,7 @@ function App() {
       <WhatWeDo />
       <AboutUs />
       <DesignSlider />
-      <JoinSubscribers />
+      {/* <JoinSubscribers /> */}
       <Testimonials />
       <DesignsHero />
       <FixedApp />

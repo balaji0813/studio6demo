@@ -16,7 +16,7 @@ const WhatWeDo = () => {
           <div className="container">
             <div className="text-center lg:mb-16 md:mb-12 mb-8">
               <TitleHeading className="text-center text-white mb-4">
-                WHAT WE DO
+                Gallery
               </TitleHeading>
             </div>
 

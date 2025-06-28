@@ -106,7 +106,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center ${
+        className={`header top-0 left-0 z-99 flex w-full items-center ${
           sticky
             ? "shadow-sticky fixed z-9999 bg-black/80 backdrop-blur-xs transition"
             : "absolute bg-transparent"

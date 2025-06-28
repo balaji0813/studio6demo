@@ -1,3 +1,4 @@
+import { FaWhatsapp } from "react-icons/fa";
 import {
   companyDetails,
   footerNav,
@@ -84,14 +85,17 @@ const Footer = () => {
               <div className="lg:w-3/6 lg:px-4">
                 <div className="bg-dark/20 lg:py-10 py-4 rounded-2xl">
                   <div className="flex flex-row justify-between items-center px-4 py-2">
-                    <input
+                    {/* <input
                       type="email"
                       placeholder="Email"
                       className="w-1/2 lg:p-4 p-2 rounded-md bg-transparent text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-primary border-2"
-                    />
-                    <button className="w-1/2 h-full ml-4 !bg-primary text-black !p-2 lg:!p-4 rounded-md hover:bg-primary-dark transition-colors duration-200 lg:text-base md:text-sm text-xs font-bold">
-                      Subscribe to news
-                    </button>
+                    /> */}
+                    <a href="https://api.whatsapp.com/send?phone=8015463200&text=Hi%20studio6interiors!%20I%20need%20more%20info%20about%20your%20products" className="flex items-center gap-2 w-full h-full ml-4 !bg-primary text-black !p-2 lg:!p-4 rounded-md hover:bg-primary-dark transition-colors duration-200 lg:text-base md:text-sm text-xs font-bold">
+                      <div className="bg-[#28a519] p-2 rounded-full shadow-md">
+                        <FaWhatsapp className="text-white w-6 h-6" />
+                      </div>
+                      Book a free consultation
+                    </a>
                   </div>
                 </div>
               </div>
