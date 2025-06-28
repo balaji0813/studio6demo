@@ -32,7 +32,7 @@ const navigation = [
     ],
   },
   { name: "Pricing", href: "#offer-packages" },
-  { name: "Service", href: "#what-we-do" },
+  { name: "Gallery", href: "#what-we-do" },
   { name: "About", href: "#about-us" },
 ];
 
