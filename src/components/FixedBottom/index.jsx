@@ -1,5 +1,5 @@
 import { navigationFrFixed } from "../../constants/headerConstant";
-import studio6logo from "../../assets/STUDIO6LOGO.jpg";
+import studio6logo from "../../assets/STUDIO6LOGO.png";
 
 const FixedBottom = ({ active, handleNavClick, navbarOpen, navbarToggler }) => {
     return (

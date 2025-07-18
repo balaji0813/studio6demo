@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { navigation } from "../../constants/headerConstant";
 import FixedBottom from "../FixedBottom";
-import studio6logo from "../../assets/STUDIO6LOGO.jpg";
+import studio6logo from "../../assets/STUDIO6LOGO.png";
 
 export default function Header() {
   // Navbar toggle

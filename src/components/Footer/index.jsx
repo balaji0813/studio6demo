@@ -4,7 +4,7 @@ import {
   footerNav,
   socialMediaLinks,
 } from "../../constants/footerConstant";
-import studio6logo from "../../assets/STUDIO6LOGO.jpg";
+import studio6logo from "../../assets/STUDIO6LOGO.png";
 
 const MapEmbed = () => {
   return (
