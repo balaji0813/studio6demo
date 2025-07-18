@@ -1,5 +1,5 @@
 import { FaWhatsapp } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
+import { IoMdCall, IoIosMail } from "react-icons/io";
 import { TitleHeading } from "../TitleHeader";
 
 const DesignsHero = () => {
@@ -30,7 +30,7 @@ const DesignsHero = () => {
 
                   {/* Social Buttons */}
                   <div className="flex gap-8">
-                    <a href="mailto:studio6interiors5292@gmail.com">
+                    {/* <a href="mailto:studio6interiors5292@gmail.com">
                       <div className="flex flex-col items-center">
                         <div className="bg-[#3769a0] p-2 rounded-full shadow-md">
                           <IoIosMail className="text-white w-6 h-6" />
@@ -39,8 +39,19 @@ const DesignsHero = () => {
                           Mail
                         </span>
                       </div>
+                    </a> */}
+                    <a href="tel:+91-904 3463200">
+                      <div className="flex flex-col items-center">
+                        <div className="bg-[#3769a0] p-2 rounded-full shadow-md">
+                          <IoMdCall className="text-white w-6 h-6" />
+                        </div>
+                        <span className="text-black md:text-sm text-xs mt-1">
+                          Call
+                        </span>
+                      </div>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=8015463200&text=Hi%20studio6interiors!%20I%20need%20more%20info%20about%20your%20products">
+
+                    <a href="https://api.whatsapp.com/send?phone=9043463200&text=Hi%20studio6interiors!%20I%20need%20more%20info%20about%20your%20products">
                       <div className="flex flex-col items-center">
                         <div className="bg-[#28a519] p-2 rounded-full shadow-md">
                           <FaWhatsapp className="text-white w-6 h-6" />

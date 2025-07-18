@@ -21,7 +21,7 @@ const companyDetails = [
     desc: "studio6interiors5292@gmail.com",
     href: "mailto:studio6interiors5292@gmail.com",
   },
-  { title: "Phone", desc: "801-546-3200", href: "tel:+91-801 5463200" },
+  { title: "Phone", desc: "904-346-3200", href: "tel:+91-904 3463200" },
   {
     title: "Address",
     desc: "1/98, STUDIO6 interiors Vadakku sambala thottam, kannampalayam, (opposite DMART -Ravuthur, Coimbatore, Tamil Nadu 641402",

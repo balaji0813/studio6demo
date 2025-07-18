@@ -1,3 +1,8 @@
+import { FaHome } from "react-icons/fa";
+import { IoIosPricetags } from "react-icons/io";
+import { FiMenu } from "react-icons/fi";
+import { TfiGallery } from "react-icons/tfi";
+
 const navigation = [
   { name: "Home", href: "#hero" },
   { name: "How It Works", href: "#how-it-works" },
@@ -36,4 +41,11 @@ const navigation = [
   { name: "About", href: "#about-us" },
 ];
 
-export { navigation };
+const navigationFrFixed = [
+  { name: "Home", Icon: FaHome, href: "#hero" },
+  { name: "Pricing", Icon: IoIosPricetags, href: "#offer-packages" },
+  { name: "Gallery", Icon: TfiGallery, href: "#what-we-do" },
+  { name: "Menu", Icon: FiMenu, href: "#menu" },
+]
+
+export { navigation, navigationFrFixed };
