@@ -4,6 +4,7 @@ import {
   footerNav,
   socialMediaLinks,
 } from "../../constants/footerConstant";
+import studio6logo from "../../assets/STUDIO6LOGO.jpg";
 
 const MapEmbed = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
             <div className="flex lg:flex-row flex-col justify-between lg:items-center items-start gap-4">
               <div className="lg:w-2/6 px-4">
                 <img
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                  src={studio6logo}
                   alt="logo"
                   width={80}
                   height={20}

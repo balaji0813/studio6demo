@@ -1,4 +1,5 @@
 import { navigationFrFixed } from "../../constants/headerConstant";
+import studio6logo from "../../assets/STUDIO6LOGO.jpg";
 
 const FixedBottom = ({ active, handleNavClick, navbarOpen, navbarToggler }) => {
     return (
@@ -7,10 +8,10 @@ const FixedBottom = ({ active, handleNavClick, navbarOpen, navbarToggler }) => {
                 <div className="studio-logo before:content-[''] before:absolute before:inset-0 relative h-[78px]">
                     <a
                         href="/"
-                        class="w-[78px] h-[78px] absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-lg flex items-center justify-center"
+                        class="w-[78px] h-[78px] absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full bg-black shadow-lg flex items-center justify-center overflow-hidden"
                     >
                         <img
-                            src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                            src={studio6logo}
                             alt="logo"
                             width={80}
                             height={20}

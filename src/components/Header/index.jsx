@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { navigation } from "../../constants/headerConstant";
 import FixedBottom from "../FixedBottom";
+import studio6logo from "../../assets/STUDIO6LOGO.jpg";
 
 export default function Header() {
   // Navbar toggle
@@ -133,18 +134,18 @@ export default function Header() {
                   } `}
               >
                 <img
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                  src={studio6logo}
                   alt="logo"
                   width={80}
                   height={20}
-                  className=""
+                  className="w-full"
                 />
                 <img
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                  src={studio6logo}
                   alt="logo"
                   width={80}
                   height={20}
-                  className="hidden"
+                  className="w-full hidden"
                 />
               </a>
             </div>

@@ -21,9 +21,9 @@ const BedroomDesign = () => {
             </div>
 
             <div className="lg:w-3/5 md:w-1/2 w-full">
-              <TitleHeading className="text-white mb-4">
+              {/* <TitleHeading className="text-white mb-4">
                 Bedroom Designs
-              </TitleHeading>
+              </TitleHeading> */}
               <SubTitleHeading className=" text-primary mb-4">
                 That Redefine Comfort and Calm
               </SubTitleHeading>
